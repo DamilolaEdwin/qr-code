@@ -31,3 +31,20 @@ body {
 .scan{
     margin-inline-start: 17px;
 }
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: red;
+        width: 375px;
+        height: 667;
+    }
+
+    .page{
+        width: 320px;
+        height: 497px;
+    }
+
+    .code{
+        margin-inline-start: 15px;
+    }
+}
